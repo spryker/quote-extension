@@ -19,7 +19,7 @@ interface QuoteFieldsAllowedForSavingProviderPluginInterface
      *
      * @param \Generated\Shared\Transfer\QuoteTransfer $quoteTransfer
      *
-     * @return \Generated\Shared\Transfer\QuoteTransfer
+     * @return array
      */
-    public function execute(QuoteTransfer $quoteTransfer): QuoteTransfer;
+    public function execute(QuoteTransfer $quoteTransfer): array;
 }
